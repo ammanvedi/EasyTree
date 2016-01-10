@@ -415,6 +415,7 @@
                     resetDnd(_dnd);
                     return;
                 }
+
             }
 
             if (_dnd.targetNode && _dnd.sourceNode && canDrop) { // internal drop
@@ -734,8 +735,10 @@
 
                 var lastSibling = i == nodes.length - 1;
                 var spanCss = getSpanCss(n, lastSibling);
+
                 //console.log(n);
                 html += '<li data-path="' + n.path +'">';
+
                 html += '<span id="' + n.id + '" class="' + spanCss + ' ">'; // wrapper span
                 html += forceOpenNode ? '' : '<span class="easytree-expander"></span>';
 
