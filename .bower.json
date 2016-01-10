@@ -1,0 +1,14 @@
+{
+  "name": "EasyTree",
+  "homepage": "https://github.com/mattrand/EasyTree",
+  "version": "1.0.1",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "1ec0dc98fac5a7652b34fbd3a1723a07aa4ea9ab"
+  },
+  "_source": "https://github.com/mattrand/EasyTree.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/mattrand/EasyTree.git"
+}
